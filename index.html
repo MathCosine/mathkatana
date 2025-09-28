@@ -42,8 +42,8 @@
             </a>
             <nav class="hidden md:flex space-x-8">
                 <a href="#mission" class="text-gray-600 hover:text-blue-700 font-medium">Mission</a>
-                <a href="#videos" class="text-gray-600 hover:text-blue-700 font-medium">Videos</a>
                 <a href="#courses" class="text-gray-600 hover:text-blue-700 font-medium">Courses</a>
+                <a href="#videos" class="text-gray-600 hover:text-blue-700 font-medium">Videos</a>
                 <a href="#support" class="text-gray-600 hover:text-blue-700 font-medium">Support Us</a>
             </nav>
             <a href="https://www.youtube.com/@MathKatana-gv5vg" target="_blank" class="hidden md:inline-block bg-red-600 text-white font-semibold px-5 py-2 rounded-lg hover:bg-red-700 transition-colors">
@@ -58,8 +58,8 @@
         <!-- Mobile Menu -->
         <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
             <a href="#mission" class="block py-2 text-gray-600 hover:text-blue-700">Mission</a>
-            <a href="#videos" class="block py-2 text-gray-600 hover:text-blue-700">Videos</a>
             <a href="#courses" class="block py-2 text-gray-600 hover:text-blue-700">Courses</a>
+            <a href="#videos" class="block py-2 text-gray-600 hover:text-blue-700">Videos</a>
             <a href="#support" class="block py-2 text-gray-600 hover:text-blue-700">Support Us</a>
              <a href="https://www.youtube.com/@MathKatana-gv5vg" target="_blank" class="block mt-2 text-center bg-red-600 text-white font-semibold px-5 py-2 rounded-lg hover:bg-red-700 transition-colors">
                 YouTube Channel
@@ -74,8 +74,8 @@
                 <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4">Master Competition Math</h1>
                 <p class="text-lg md:text-xl max-w-3xl mx-auto text-blue-100 mb-8">High-quality AMC, AIME, and Olympiad math tutorials. Completely free, for everyone, forever.</p>
                 <div class="flex justify-center space-x-4">
-                    <a href="#videos" class="bg-white text-blue-800 font-bold py-3 px-8 rounded-full hover:bg-blue-100 transition-transform hover:scale-105">Browse Videos</a>
-                    <a href="#courses" class="bg-emerald-500 text-white font-bold py-3 px-8 rounded-full hover:bg-emerald-600 transition-transform hover:scale-105">Upcoming Courses</a>
+                    <a href="#courses" class="bg-white text-blue-800 font-bold py-3 px-8 rounded-full hover:bg-blue-100 transition-transform hover:scale-105">Browse Courses</a>
+                    <a href="#videos" class="bg-emerald-500 text-white font-bold py-3 px-8 rounded-full hover:bg-emerald-600 transition-transform hover:scale-105">Explore Videos</a>
                 </div>
             </div>
         </section>
@@ -98,33 +98,12 @@
             </div>
         </section>
 
-        <!-- Videos Section -->
-        <section id="videos" class="py-20 section-gradient">
-            <div class="container mx-auto px-6">
-                <div class="text-center mb-12">
-                    <h2 class="text-3xl font-bold text-blue-900 mb-4">Explore Our Videos</h2>
-                    <p class="text-lg text-gray-600 max-w-2xl mx-auto">Filter by competition to find the tutorials most relevant to you.</p>
-                </div>
-                <!-- Filter Buttons -->
-                <div class="flex justify-center flex-wrap gap-3 mb-10">
-                    <button class="filter-btn active bg-blue-100 text-blue-800 font-semibold py-2 px-6 rounded-full hover:bg-blue-200 transition-colors" data-filter="all">All</button>
-                    <button class="filter-btn bg-blue-100 text-blue-800 font-semibold py-2 px-6 rounded-full hover:bg-blue-200 transition-colors" data-filter="amc">AMC 10/12</button>
-                    <button class="filter-btn bg-blue-100 text-blue-800 font-semibold py-2 px-6 rounded-full hover:bg-blue-200 transition-colors" data-filter="aime">AIME</button>
-                    <button class="filter-btn bg-blue-100 text-blue-800 font-semibold py-2 px-6 rounded-full hover:bg-blue-200 transition-colors" data-filter="olympiad">Olympiad</button>
-                </div>
-                <!-- Video Grid -->
-                <div id="video-grid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <!-- Videos will be dynamically inserted here -->
-                </div>
-            </div>
-        </section>
-
         <!-- Courses Section -->
-        <section id="courses" class="py-20 bg-white">
+        <section id="courses" class="py-20 bg-gray-50">
             <div class="container mx-auto px-6">
                 <div class="text-center mb-12">
                     <h2 class="text-3xl font-bold text-blue-900 mb-4">Comprehensive Courses</h2>
-                    <p class="text-lg text-gray-600 max-w-2xl mx-auto">Structured courses to take your skills from fundamentals to mastery. Launching soon!</p>
+                    <p class="text-lg text-gray-600 max-w-2xl mx-auto">Structured courses to take your skills from fundamentals to mastery. Handouts are available now, with video lessons being recorded.</p>
                 </div>
                 <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
                     <!-- AMC Course Card -->
@@ -133,7 +112,7 @@
                          <p class="text-gray-600 mb-6 text-center">A full curriculum covering all major topics in Algebra, Geometry, Combinatorics, and Number Theory needed to ace the AMC.</p>
                          
                          <!-- Lesson List -->
-                        <div class="mt-6 border-t border-blue-200 pt-6">
+                        <div class="mt-6 border-t border-blue-200 pt-6 space-y-3">
                             <h4 class="text-xl font-semibold text-blue-800 mb-4 text-left">Available Lessons</h4>
                             
                             <!-- Lesson 1 Card -->
@@ -156,6 +135,54 @@
                                         </svg>
                                         Video
                                     </a>
+                                </div>
+                            </div>
+                            <!-- Lesson 2 Card -->
+                             <div class="bg-white rounded-lg p-4 flex flex-col sm:flex-row justify-between items-start sm:items-center border border-blue-100 shadow-sm text-left">
+                                <div class="mb-4 sm:mb-0">
+                                    <p class="font-bold text-blue-900">Lesson 2: Vieta's Formulas</p>
+                                    <p class="text-sm text-gray-500">The relationship between polynomial roots and coefficients.</p>
+                                </div>
+                                <div class="flex-shrink-0 flex items-center space-x-2">
+                                     <a href="https://drive.google.com/file/d/1lVk6b4iExa3i5yj4IraddlExswVyLAvn/view?usp=sharing" target="_blank" class="flex items-center justify-center bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors text-sm w-full sm:w-auto">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                          <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                                        </svg>
+                                        PDF
+                                    </a>
+                                    <span class="text-sm text-gray-500 font-medium">(Video Soon)</span>
+                                </div>
+                            </div>
+                            <!-- Lesson 3 Card -->
+                             <div class="bg-white rounded-lg p-4 flex flex-col sm:flex-row justify-between items-start sm:items-center border border-blue-100 shadow-sm text-left">
+                                <div class="mb-4 sm:mb-0">
+                                    <p class="font-bold text-blue-900">Lesson 3: Polynomials</p>
+                                    <p class="text-sm text-gray-500">Advanced properties and theorems of polynomials.</p>
+                                </div>
+                                <div class="flex-shrink-0 flex items-center space-x-2">
+                                     <a href="https://drive.google.com/file/d/1299X_3BJ7drDPTmrEe1DIKLflN7CxGtu/view?usp=sharing" target="_blank" class="flex items-center justify-center bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors text-sm w-full sm:w-auto">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                          <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                                        </svg>
+                                        PDF
+                                    </a>
+                                    <span class="text-sm text-gray-500 font-medium">(Video Soon)</span>
+                                </div>
+                            </div>
+                            <!-- Lesson 4 Card -->
+                             <div class="bg-white rounded-lg p-4 flex flex-col sm:flex-row justify-between items-start sm:items-center border border-blue-100 shadow-sm text-left">
+                                <div class="mb-4 sm:mb-0">
+                                    <p class="font-bold text-blue-900">Lesson 4: Power of a Point</p>
+                                    <p class="text-sm text-gray-500">A fundamental theorem in circle geometry.</p>
+                                </div>
+                                <div class="flex-shrink-0 flex items-center space-x-2">
+                                     <a href="https://drive.google.com/file/d/16gwMqfZZTiXXMTYut1URp6jsbuACbevy/view?usp=sharing" target="_blank" class="flex items-center justify-center bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors text-sm w-full sm:w-auto">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                          <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                                        </svg>
+                                        PDF
+                                    </a>
+                                    <span class="text-sm text-gray-500 font-medium">(Video Soon)</span>
                                 </div>
                             </div>
                         </div>
@@ -189,8 +216,30 @@
                 </div>
             </div>
         </section>
+
+        <!-- Videos Section -->
+        <section id="videos" class="py-20 section-gradient">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-blue-900 mb-4">Explore Our Videos</h2>
+                    <p class="text-lg text-gray-600 max-w-2xl mx-auto">Filter by competition to find the tutorials most relevant to you.</p>
+                </div>
+                <!-- Filter Buttons -->
+                <div class="flex justify-center flex-wrap gap-3 mb-10">
+                    <button class="filter-btn active bg-blue-100 text-blue-800 font-semibold py-2 px-6 rounded-full hover:bg-blue-200 transition-colors" data-filter="all">All</button>
+                    <button class="filter-btn bg-blue-100 text-blue-800 font-semibold py-2 px-6 rounded-full hover:bg-blue-200 transition-colors" data-filter="amc">AMC 10/12</button>
+                    <button class="filter-btn bg-blue-100 text-blue-800 font-semibold py-2 px-6 rounded-full hover:bg-blue-200 transition-colors" data-filter="aime">AIME</button>
+                    <button class="filter-btn bg-blue-100 text-blue-800 font-semibold py-2 px-6 rounded-full hover:bg-blue-200 transition-colors" data-filter="olympiad">Olympiad</button>
+                </div>
+                <!-- Video Grid -->
+                <div id="video-grid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Videos will be dynamically inserted here -->
+                </div>
+            </div>
+        </section>
+        
         <!-- Support Section -->
-        <section id="support" class="py-20 bg-gray-50">
+        <section id="support" class="py-20 bg-white">
             <div class="container mx-auto px-6 text-center">
                 <h2 class="text-3xl font-bold text-blue-900 mb-4">Support Our Mission</h2>
                 <p class="text-lg text-gray-600 max-w-2xl mx-auto mb-8">If you find our content helpful, consider supporting the channel. Your contributions help us create more free resources and reach more students around the world.</p>
@@ -371,7 +420,4 @@
     </script>
 </body>
 </html>
-
-
-
 
